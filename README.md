@@ -11,6 +11,10 @@ Daily builds containing bug fixes on top of the latest 5.0 release.<br>
 Daily builds of what will become Krita 5.1. Install at your own risk! It's alpha!<br>
 **KDE/krita github repository : krita/master branch**
 
-In my environment, KDE's repositories are horribly slow, so **I use a mirror on github instead.**<br>
-It takes 2-3 hours to build each Krita versions. I don't have a CI/CD system, so **this repository may not keep up with "daily" builds.**<br>
-If you want to get the "latest" nightly build, download AppImage or build your own.
+### Notice
+In my environment, KDE's repositories are horribly slow, so **I use a mirror on github instead.**
+
+It takes 2-3 hours to build each Krita versions. I don't have a CI/CD system, so **this repository may not keep up with "daily" builds.**
+However, **sometimes patches are uploaded faster than the official nightly appimage**. In this case, the -git version is deployed after testing the build with the -bin version if possible.
+
+To be sure you get the "latest" nightly build, download AppImage or build your own.
